@@ -22,12 +22,12 @@ if __name__ == '__main__':
 
     resultado_sub = polysub(coeficientes_pol1, coeficientes_pol2)
 
-    print("Print resultado da soma entre polinomios")
+    print("Print resultado da subtração entre polinomios")
     print("(3x**2 + 2x - 1)", " - ", "(4x**2 - x + 3)")
     print(f"{resultado_sub=}")
 
     resultado_mult = polymul(coeficientes_pol1, coeficientes_pol2)
 
-    print("Print resultado da soma entre polinomios")
-    print("(3x**2 + 2x - 1)", " * ", "(4x**2 - x + 3)")
+    print("Print resultado da multiplicação entre polinomios")
+    print("(3x**2 + 2x - 1)", " * ", "(4x**2 - 1x + 3)")
     print(f"{resultado_mult=}")
